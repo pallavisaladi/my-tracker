@@ -1,0 +1,58 @@
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.todoItemsContainer {
+  display: flex;
+}
+
+.todoItems {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 16px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.pendingAccordion {
+  width: 80% !important;
+  padding: 32px;
+}
+
+.statusDropdown {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid;
+  width: 85px;
+  cursor: pointer;
+}
+
+.sortContainer {
+  width: 100%;
+  padding: 0px 16px 0px 16px;
+}
+
+.buttonAction {
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 12px;
+}
+
+.rightContainer {
+  display: flex;
+  gap: 12px;
+  /* align-items: center; */
+}
+
+.goalDate {
+  min-width: 75px;
+}

@@ -1,0 +1,18 @@
+.sortDropdown {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+}
+
+.selectDropdown {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.dropdownText {
+  font-size: 12px;
+  text-align: center;
+  padding: 5px;
+}
